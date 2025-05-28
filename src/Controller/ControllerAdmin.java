@@ -10,6 +10,7 @@ import Model.Admin.InterfaceDAOAdmin;
 import Model.Admin.ModelAdmin;
 import View.Login.*;
 import java.util.List;
+import javax.swing.JOptionPane;
 /**
  *
  * @author Lab Informatika
@@ -47,6 +48,7 @@ public class ControllerAdmin {
                         
                     }
                 }
+                JOptionPane.showMessageDialog(login, "Username atau Password Salah");
             }
             
             
